@@ -331,7 +331,7 @@ medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
 
-source "https://rubygems.org"
+source: "https://rubygems.org"
 
 gem "jekyll"
 gem "jekyll-paginate"
