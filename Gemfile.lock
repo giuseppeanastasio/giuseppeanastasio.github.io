@@ -82,11 +82,16 @@ GEM
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-gist (1.5.0)
+      octokit (~> 4.2)
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (2.2.0)
@@ -161,8 +166,11 @@ DEPENDENCIES
   jekyll-diagrams
   jekyll-email-protect
   jekyll-feed
+  jekyll-gist
   jekyll-github-metadata
   jekyll-imagemagick
+  jekyll-include-cache
+  jekyll-paginate
   jekyll-paginate-v2
   jekyll-scholar
   jekyll-sitemap
