@@ -157,6 +157,9 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-include-cache
 
 # Sitemap settings
 defaults:
@@ -166,6 +169,21 @@ defaults:
       sitemap:         false
 # Extras
 github: [metadata]
+#kramdown:
+#  input: GFM
+#  hard_wrap: false
+#gems:
+#  - jekyll-coffeescript
+#  - jekyll-gist
+#  - jekyll-mentions
+#  - jekyll-paginate
+#  - jekyll-redirect-from
+#whitelist:
+#  - jekyll-coffeescript
+#  - jekyll-gist
+#  - jekyll-mentions
+#  - jekyll-paginate
+#  - jekyll-redirect-from
 
 # -----------------------------------------------------------------------------
 # Jekyll optimization
@@ -312,20 +330,3 @@ popper:
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
-
-github: [metadata]
-kramdown:
-  input: GFM
-  hard_wrap: false
-gems:
-  - jekyll-coffeescript
-  - jekyll-gist
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-redirect-from
-whitelist:
-  - jekyll-coffeescript
-  - jekyll-gist
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-redirect-from
